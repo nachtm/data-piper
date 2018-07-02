@@ -1,0 +1,203 @@
+[
+		{
+			"name":"Edible",
+			"options": [
+				{
+					"name":"edible",
+					"val":"e"
+				},
+				{
+					"name":"poisonous",
+					"val":"p"
+				}]
+		},
+		{
+			"name":"Cap Shape",
+			"options": [{
+					"name":"bell",
+					"val":"b"
+				},
+				{
+					"name":"conical",
+					"val":"c"
+				},
+				{
+					"name":"convex",
+					"val":"x"
+				},
+				{
+					"name":"flat",
+					"val":"f"
+				},
+				{
+					"name":"knobbed",
+					"val":"k"
+				},
+				{
+					"name":"sunken",
+					"val":"s"
+				}]
+		},
+		{
+			"name":"Cap Surface",
+			"options": [{
+				"name":"fibrous",
+				"val":"f"
+			},
+			{
+				"name":"grooves",
+				"val":"g"
+			},
+			{
+				"name":"scaly",
+				"val":"y"
+			},
+			{
+				"name":"smooth",
+				"val":"s"
+			}]
+		},
+		{
+			"name":"Cap Color",
+			"options": [{
+				"name":"brown",
+				"val":"n"
+			},
+			{
+				"name":"buff",
+				"val":"b"
+			},
+			{
+				"name":"cinnamon",
+				"val":"c"
+			},
+			{
+				"name":"gray",
+				"val":"g"
+			},
+			{
+				"name":"green",
+				"val":"r"
+			},
+			{
+				"name":"pink",
+				"val":"p"
+			},
+			{
+				"name":"purple",
+				"val":"u"
+			},
+			{
+				"name":"red",
+				"val":"e"
+			},
+			{
+				"name":"white",
+				"val":"w"
+			},
+			{
+				"name":"yellow",
+				"val":"y"
+			}]
+		},
+		{
+			"name":"Bruises?",
+			"options": [{
+				"name":"yes",
+				"val":"t"	
+			},
+			{
+				"name":"no",
+				"val":"f"
+			}]
+		},
+		{
+			"name":"Odor",
+			"options": [{
+				"name":"almond",
+				"val":"a"
+			},
+			{
+				"name":"anise",
+				"val":"l"
+			},
+			{
+				"name":"creosote",
+				"val":"c"
+			},
+			{
+				"name":"fishy",
+				"val":"y"
+			},
+			{
+				"name":"foul",
+				"val":"f"
+			},
+			{
+				"name":"musty",
+				"val":"m"
+			},
+			{
+				"name":"none",
+				"val":"n"
+			},
+			{
+				"name":"pungent",
+				"val":"p"
+			},
+			{
+				"name":"spicy",
+				"val":"s"
+			}]
+		},
+		{
+			"name":"Gill Attachment"
+		},
+		{
+			"name":"Gill Spacing"
+		},
+		{
+			"name":"Gill Size"
+		},
+		{
+			"name":"Gill Color"
+		},
+		{
+			"name":"Stalk Shape"
+		},
+		{
+			"name":"Stalk Root"
+		},
+		{
+			"name":"Stalk Surface Above Ring"
+		},
+		{
+			"name":"Stalk Surface Below Ring"
+		},
+		{
+			"name":"Stalk Color Above Ring"
+		},
+		{
+			"name":"Stalk Color Below Ring"
+		},
+		{
+			"name":"Veil Type"
+		},
+		{
+			"name":"Veil Color"
+		},
+		{
+			"name":"Ring Number"
+		},
+		{
+			"name":"Ring Type"
+		},
+		{
+			"name":"Spore Print Color"
+		},
+		{
+			"name":"Population"
+		},
+		{
+			"name":"Habitat"
+		}]

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Submit a Mushroom</title>
+	</head>
+	<body>
+		<form>
+			{% for field in schema %}
+			{{field.name|e}}
+				<select name="{{field.name|e}}">
+					{% for option in field.options %}
+						<option value="{{option.val}}">{{option.name}}</option>
+					{% endfor %}
+				</select>
+			{% endfor %}
+			<input type="submit">
+		</form>
+	</body>
+</html>
