@@ -4,15 +4,17 @@ services:
     image: wurstmeister/zookeeper
     ports:
       - "2181:2181"
+
   kafka-brokers:
     build: ./kafka-brokers/
     ports: 
-      - "9092"
+      - "9092:9092"
     environment:
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
       KAFKA_ADVERTISED_HOST_NAME: 192.168.99.101
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
+
   kafka-file-producers:
     build:
       context: ./kafka-file-producers/
@@ -23,6 +25,18 @@ services:
       KAFKA_ADVERTISED_HOST_NAME: 192.168.99.101
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
+
+  kafka-web-producers:
+    build:
+      context: ./kafka-web-producers/
+    ports:
+      - "80:80"
+    environment:
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_ADVERTISED_HOST_NAME: 192.168.99.101
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+
   kafka-consumers:
     build: ./kafka-brokers/
     ports:

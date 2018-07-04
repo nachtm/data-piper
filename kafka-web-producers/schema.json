@@ -151,53 +151,433 @@
 			}]
 		},
 		{
-			"name":"Gill Attachment"
+			"name":"Gill Attachment",
+			"options":[{
+				"name":"attached",
+				"val":"a"
+			},
+			{
+				"name":"descending",
+				"val":"d"
+			},
+			{
+				"name":"free",
+				"val":"f"
+			},
+			{
+				"name":"notched",
+				"val":"n"
+			}]
 		},
 		{
-			"name":"Gill Spacing"
+			"name":"Gill Spacing",
+			"options":[{
+				"name":"close",
+				"val":"c"
+			},
+			{
+				"name":"crowded",
+				"val":"w"
+			},
+			{
+				"name":"distant",
+				"val":"d"
+			}]
 		},
 		{
-			"name":"Gill Size"
+			"name":"Gill Size",
+			"options":[{
+				"name":"broad",
+				"val":"b"
+			},
+			{
+				"name":"narrow",
+				"val":"n"
+			}]
 		},
 		{
-			"name":"Gill Color"
+			"name":"Gill Color",
+			"options":[{
+				"name":"black",
+				"val":"k"
+			},
+			{
+				"name":"brown",
+				"val":"n"
+			},
+			{
+				"name":"buff",
+				"val":"b"
+			},
+			{
+				"name":"chocolate",
+				"val":"h"
+			},
+			{
+				"name":"gray",
+				"val":"g"
+			},
+			{
+				"name":"green",
+				"val":"r"
+			},
+			{
+				"name":"orange",
+				"val":"o"
+			},
+			{
+				"name":"pink",
+				"val":"p"
+			},
+			{
+				"name":"purple",
+				"val":"u"
+			},
+			{
+				"name":"red",
+				"val":"e"
+			},
+			{
+				"name":"white",
+				"val":"w"
+			},
+			{
+				"name":"yellow",
+				"val":"y"
+			}]
 		},
 		{
-			"name":"Stalk Shape"
+			"name":"Stalk Shape",
+			"options":[{
+				"name":"broad",
+				"val":"b"
+			},
+			{
+				"name":"narrow",
+				"val":"n"
+			}]
 		},
 		{
-			"name":"Stalk Root"
+			"name":"Stalk Root",
+			"options":[{
+				"name":"bulbous",
+				"val":"b"
+			},
+			{
+				"name":"club",
+				"val":"c"
+			},
+			{
+				"name":"cup",
+				"val":"u"
+			},
+			{
+				"name":"equal",
+				"val":"e"
+			},
+			{
+				"name":"rhizomorphs",
+				"val":"z"
+			},
+			{
+				"name":"rooted",
+				"val":"r"
+			},
+			{
+				"name":"missing",
+				"val":"?"
+			}]
 		},
 		{
-			"name":"Stalk Surface Above Ring"
+			"name":"Stalk Surface Above Ring",
+			"options":[{
+				"name":"fibrous",
+				"val":"f"
+			},
+			{
+				"name":"scaly",
+				"val":"y"
+			},
+			{
+				"name":"silky",
+				"val":"k"
+			},
+			{
+				"name":"smooth",
+				"val":"s"
+			}]
 		},
 		{
-			"name":"Stalk Surface Below Ring"
+			"name":"Stalk Surface Below Ring",
+			"options":[{
+				"name":"fibrous",
+				"val":"f"
+			},
+			{
+				"name":"scaly",
+				"val":"y"
+			},
+			{
+				"name":"silky",
+				"val":"k"
+			},
+			{
+				"name":"smooth",
+				"val":"s"
+			}]
 		},
 		{
-			"name":"Stalk Color Above Ring"
+			"name":"Stalk Color Above Ring",
+			"options":[{
+				"name":"brown",
+				"val":"n"
+			},
+			{
+				"name":"buff",
+				"val":"b"
+			},
+			{
+				"name":"cinnamon",
+				"val":"c"
+			},
+			{
+				"name":"gray",
+				"val":"g"
+			},
+			{
+				"name":"orange",
+				"val":"o"
+			},
+			{
+				"name":"pink",
+				"val":"p"
+			},
+			{
+				"name":"red",
+				"val":"e"
+			},
+			{
+				"name":"white",
+				"val":"w"
+			},
+			{
+				"name":"yellow",
+				"val":"y"
+			}]
 		},
 		{
-			"name":"Stalk Color Below Ring"
+			"name":"Stalk Color Below Ring",
+			"options":[{
+				"name":"brown",
+				"val":"n"
+			},
+			{
+				"name":"buff",
+				"val":"b"
+			},
+			{
+				"name":"cinnamon",
+				"val":"c"
+			},
+			{
+				"name":"gray",
+				"val":"g"
+			},
+			{
+				"name":"orange",
+				"val":"o"
+			},
+			{
+				"name":"pink",
+				"val":"p"
+			},
+			{
+				"name":"red",
+				"val":"e"
+			},
+			{
+				"name":"white",
+				"val":"w"
+			},
+			{
+				"name":"yellow",
+				"val":"y"
+			}]
 		},
 		{
-			"name":"Veil Type"
+			"name":"Veil Type",
+			"options":[{
+				"name":"partial",
+				"val":"p"
+			},
+			{
+				"name":"universal",
+				"val":"u"
+			}]
 		},
 		{
-			"name":"Veil Color"
+			"name":"Veil Color",
+			"options":[{
+				"name":"brown",
+				"val":"n"
+			},
+			{
+				"name":"orange",
+				"val":"o"
+			},
+			{
+				"name":"white",
+				"val":"w"
+			},
+			{
+				"name":"yellow",
+				"val":"y"
+			}]
 		},
 		{
-			"name":"Ring Number"
+			"name":"Ring Number",
+			"options":[{
+				"name":"none",
+				"val":"n"
+			},
+			{
+				"name":"one",
+				"val":"o"
+			},
+			{
+				"name":"two",
+				"val":"t"
+			}]
 		},
 		{
-			"name":"Ring Type"
+			"name":"Ring Type",
+			"options":[{
+				"name":"cobwebby",
+				"val":"c"
+			},
+			{
+				"name":"evanescent",
+				"val":"e"
+			},
+			{
+				"name":"flaring",
+				"val":"f"
+			},
+			{
+				"name":"large",
+				"val":"l"
+			},
+			{
+				"name":"none",
+				"val":"n"
+			},
+			{
+				"name":"pendant",
+				"val":"p"
+			},
+			{
+				"name":"sheathing",
+				"val":"s"
+			},
+			{
+				"name":"zone",
+				"val":"z"
+			}]
 		},
 		{
-			"name":"Spore Print Color"
+			"name":"Spore Print Color",
+			"options":[{
+				"name":"black",
+				"val":"k"
+			},
+			{
+				"name":"brown",
+				"val":"n"
+			},
+			{
+				"name":"buff",
+				"val":"b"
+			},
+			{
+				"name":"chocolate",
+				"val":"h"
+			},
+			{
+				"name":"green",
+				"val":"r"
+			},
+			{
+				"name":"orange",
+				"val":"o"
+			},
+			{
+				"name":"purple",
+				"val":"u"
+			},
+			{
+				"name":"white",
+				"val":"w"
+			},
+			{
+				"name":"yellow",
+				"val":"y"
+			}]
 		},
 		{
-			"name":"Population"
+			"name":"Population",
+			"options":[{
+				"name":"abundant",
+				"val":"a"
+			},
+			{
+				"name":"clustered",
+				"val":"c"
+			},
+			{
+				"name":"numerous",
+				"val":"n"
+			},
+			{
+				"name":"scattered",
+				"val":"s"
+			},
+			{
+				"name":"several",
+				"val":"v"
+			},
+			{
+				"name":"solitary",
+				"val":"y"
+			}]
 		},
 		{
-			"name":"Habitat"
+			"name":"Habitat",
+			"options":[{
+				"name":"grasses",
+				"val":"g"
+			},
+			{
+				"name":"leaves",
+				"val":"l"
+			},
+			{
+				"name":"meadows",
+				"val":"m"
+			},
+			{
+				"name":"paths",
+				"val":"p"
+			},
+			{
+				"name":"urban",
+				"val":"u"
+			},
+			{
+				"name":"waste",
+				"val":"w"
+			},
+			{
+				"name":"woods",
+				"val":"d"
+			}]
 		}]
