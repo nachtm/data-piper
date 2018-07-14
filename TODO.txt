@@ -1,0 +1,3 @@
+- User frontend
+- kafka->spark analysis of mushrooms
+- clean the data (before or after spark??)
